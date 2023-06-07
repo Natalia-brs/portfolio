@@ -4,17 +4,18 @@ import HomeImg from '../app/images/HomePort.png';
 
 export default function Home() {
   return (
-      <Styled.Wrapper>
         <Styled.SectionHome>
           <Styled.DivImg>
-            <Styled.NextImage src={HomeImg} />
+            <Styled.NextImage 
+            priority
+            alt='Natalia-foto'
+             />
           </Styled.DivImg>
 
           <Styled.DescriptionDiv>
-            <h2>Natalia Brasil</h2>
-            <p>Desenvolvedora Frontend</p>
+            <Styled.h2Description>Natália Brasil</Styled.h2Description>
+           <Styled.pDescription>Desenvolvedora Web</Styled.pDescription>
           </Styled.DescriptionDiv>
         </Styled.SectionHome>
-      </Styled.Wrapper>
   );
 }
