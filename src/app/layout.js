@@ -3,7 +3,6 @@ import StyledJsxRegistry from './registry';
 import Header from '../app/components/Header';
 import { Philosopher, Nunito } from 'next/font/google';
 
-
 const philosopher = Philosopher({
   subsets: ['latin'],
   weight: ['700'],
@@ -27,11 +26,11 @@ export default function RootLayout({ children }) {
   return (
     <html 
     className={`${philosopher.variable} ${nunito.variable}`}
-    lang='en'>
+    lang='en'>  
       <body>
         <Header />
-        <StyledJsxRegistry>{children}</StyledJsxRegistry>
-      </body>
+        <StyledJsxRegistry>{children}</StyledJsxRegistry>      
+      </body>     
     </html>
   );
 }

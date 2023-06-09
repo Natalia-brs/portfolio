@@ -1,21 +1,23 @@
-'use client'
+'use client';
 import React from 'react';
 import * as Styled from '../Styles/FrontStyle';
+import Tilt from "react-parallax-tilt";
 
 function FrontProjects({ projectName, urlDeploy, image, type, tech }) {
   return (
-    <Styled.divFront>
-        <Styled.img src={ image } />
-        <Styled.frontSpan> { projectName } </Styled.frontSpan>
-        <Styled.frontDetailsDiv>
-        <Styled.frontSpan> { urlDeploy } </Styled.frontSpan>
-        <Styled.frontSpan> { type } </Styled.frontSpan>
-        <Styled.ulTech>
-            { tech.toString() }
-        </Styled.ulTech>
-        </Styled.frontDetailsDiv>
-    </Styled.divFront>
-  )
+    <Tilt>
+    <Styled.CardWrapper>
+        <Styled.img src={image} />
+      <Styled.CardTextWrapper>
+        <Styled.CardTextName> {projectName} </Styled.CardTextName>
+        <Styled.CardTextBody>{tech.toString()}</Styled.CardTextBody>
+      </Styled.CardTextWrapper>
+      <Styled.CardStatWrapper>
+        <Styled.StyledLink href={ { pathname: urlDeploy } } > Deploy </Styled.StyledLink>
+      </Styled.CardStatWrapper>
+    </Styled.CardWrapper>
+    </Tilt>
+  );
 }
 
-export default FrontProjects
+export default FrontProjects;

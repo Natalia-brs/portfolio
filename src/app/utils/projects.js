@@ -36,19 +36,19 @@ const projects = [
     },
     {
         name: 'Talk Manager',
-        repo: 'https://github.com/Natalia-brs/talkManager',
+        deploy: 'https://github.com/Natalia-brs/talkManager',
         type: 'Backend',
         tech: ['Docker, Express, NodeJS']
     },
     {
         name: 'Blogs API',
-        repo: 'https://github.com/Natalia-brs/blogsSPI',
+        deploy: 'https://github.com/Natalia-brs/blogsSPI',
         type: 'Backend',
         tech: ['Docker, mySQL, NodeJS, Express, Sequelize']
     },
     {
         name: 'Store Manager',
-        repo: 'https://github.com/Natalia-brs/storeManager',
+        deploy: 'https://github.com/Natalia-brs/storeManager',
         type: 'Backend',
         tech: ['Docker, mySQL, NodeJS, Express, Chai/Sinon']
     }

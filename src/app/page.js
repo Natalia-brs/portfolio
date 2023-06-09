@@ -1,6 +1,4 @@
-
 import * as Styled from './Styles/styles';
-import HomeImg from '../app/images/HomePort.png';
 
 export default function Home() {
   return (
