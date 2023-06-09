@@ -26,8 +26,6 @@ export const Header = styled.header`
     rgba(27, 27, 28, 1) 29%,
     rgba(223, 229, 235, 1) 94%
   );
-  
-
 `;
 
 export const NextImage = styled(Image)`
@@ -95,6 +93,7 @@ export const DescriptionDiv = styled.div`
   border: 3px solid rgba(95, 115, 187, 0.04);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  background-color: rgb(230, 250, 252);
 `;
 
 export const h2Description = styled.h2`
@@ -129,7 +128,7 @@ export const StyledLink = styled(Link)`
     transition: all 0.3s ease-in-out 0s;
   }
   &:hover {
-    color: #FFFFFF;
+    color: #ffffff;
     opacity: 0.6;
 
     &::before {
@@ -142,10 +141,9 @@ export const StyledLink = styled(Link)`
 `;
 
 export const Divbtn = styled.div`
-margin-right: 320px;
-margin-top: 40px;
-
-`
+  margin-right: 320px;
+  margin-top: 40px;
+`;
 
 export const btnCR = styled.button`
   margin-left: 10px;
@@ -172,8 +170,4 @@ export const iconsDiv = styled.div`
   justify-content: space-evenly;
   align-items: center;
   text-decoration: none;
-`
-
-
-
-
+`;

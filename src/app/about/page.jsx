@@ -5,16 +5,11 @@ function page() {
   return (
     <Styled.SectionAbout>
       <Styled.DivImgAbout>
-        <Styled.AboutImg 
-        priority 
-        alt='Natalia-about' 
-        />
+        <Styled.AboutImg priority alt='Natalia-about' />
       </Styled.DivImgAbout>
 
       <Styled.DescriptionAbout>
-        <Styled.h2About>
-          Sobre mim
-        </Styled.h2About>
+        <Styled.h2About>Sobre mim</Styled.h2About>
         <Styled.pAbout>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
           fugit. Praesentium voluptatibus iste nobis exercitationem beatae

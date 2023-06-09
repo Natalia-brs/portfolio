@@ -18,12 +18,12 @@ function Page() {
   return (
     <Styled.div>
       <Styled.BtnDiv>
-      {variables.map((item, index) => (
-        <Styled.btnProject key={index} onClick={() => filterProjects(item)}>
-          {' '}
-          {item}{' '}
-        </Styled.btnProject>
-      ))}
+        {variables.map((item, index) => (
+          <Styled.btnProject key={index} onClick={() => filterProjects(item)}>
+            {' '}
+            {item}{' '}
+          </Styled.btnProject>
+        ))}
       </Styled.BtnDiv>
       <Styled.CardContainer>
         {list.map((item, index) => (
@@ -37,7 +37,7 @@ function Page() {
           />
         ))}
       </Styled.CardContainer>
-      </Styled.div>
+    </Styled.div>
   );
 }
 

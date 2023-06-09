@@ -12,7 +12,6 @@ body {
     rgba(27, 27, 28, 1) 29%,
     rgba(27, 61, 92, 1) 94%
   );
-  
 }
 
 body::-webkit-scrollbar {
@@ -22,7 +21,3 @@ body::-webkit-scrollbar {
 h2 {
   font-family: var(--philopher-font), sans-serif;
 }
-
-
-
-

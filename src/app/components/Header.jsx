@@ -15,17 +15,13 @@ function NavBar() {
           target='_blank'
           href='https://www.linkedin.com/in/natalia-brasil/'
         >
-          <FaLinkedinIn 
-          color='black'
-          size='25px' />
+          <FaLinkedinIn color='black' size='25px' />
         </Styled.StyledLink>
         <Styled.StyledLink
           target='_blank'
           href='https://github.com/Natalia-brs'
         >
-          <FaGithub 
-          color='black' 
-          size='25px' />
+          <FaGithub color='black' size='25px' />
         </Styled.StyledLink>
       </Styled.iconsDiv>
     </Styled.Header>
