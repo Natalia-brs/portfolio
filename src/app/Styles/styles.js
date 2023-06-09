@@ -14,7 +14,7 @@ export const NavBar = styled.nav`
 
 export const Header = styled.header`
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   background-color: rgb(245, 245, 245);
   height: 100px;
   width: 100vw;
@@ -26,6 +26,8 @@ export const Header = styled.header`
     rgba(27, 27, 28, 1) 29%,
     rgba(223, 229, 235, 1) 94%
   );
+  
+
 `;
 
 export const NextImage = styled(Image)`
@@ -138,6 +140,39 @@ export const StyledLink = styled(Link)`
     }
   }
 `;
+
+export const Divbtn = styled.div`
+margin-right: 320px;
+margin-top: 40px;
+
+`
+
+export const btnCR = styled.button`
+  margin-left: 10px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 14px 24px 16px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  transition: transform 200ms, background 200ms;
+  background: transparent;
+  color: #000000;
+  box-shadow: 0 0 0 3px #000000 inset;
+  :hover {
+    transform: translateY(-2px);
+  }
+`;
+
+export const iconsDiv = styled.div`
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+`
 
 
 
