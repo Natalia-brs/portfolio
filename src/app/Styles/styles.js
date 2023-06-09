@@ -26,8 +26,6 @@ export const Header = styled.header`
     rgba(27, 27, 28, 1) 29%,
     rgba(223, 229, 235, 1) 94%
   );
-  
-
 `;
 
 export const NextImage = styled(Image)`
@@ -95,8 +93,8 @@ export const DescriptionDiv = styled.div`
   border: 3px solid rgba(95, 115, 187, 0.04);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
- background-color: rgb(230, 250, 252);
- overflow: hidden;
+  background-color: rgb(230, 250, 252);
+  overflow: hidden;
 `;
 
 export const h2Description = styled.h2`
@@ -109,6 +107,12 @@ export const pDescription = styled.p`
   font-family: var(--nunito-font), sans-serif;
   font-size: 1rem;
 `;
+
+export const pContact = styled.p`
+ font-family: var(--nunito-font), sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+`
 
 export const StyledLink = styled(Link)`
   z-index: 1;
@@ -133,22 +137,23 @@ export const StyledLink = styled(Link)`
     transition: all 0.3s ease-in-out 0s;
   }
   &:hover {
-    color: #FFFFFF;
+    color: #ffffff;
     opacity: 1;
     &::before {
       visibility: visible;
       -webkit-transform: scaleX(1);
       transform: scaleX(1);
-
     }
   }
 `;
 
 export const Divbtn = styled.div`
-margin-right: 320px;
-margin-top: 40px;
-
-`
+  width: 550px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: last baseline;
+`;
 
 export const btnCR = styled.button`
   margin-left: 10px;
@@ -175,8 +180,6 @@ export const iconsDiv = styled.div`
   justify-content: space-evenly;
   align-items: center;
   text-decoration: none;
-`
-
-
+`;
 
 
