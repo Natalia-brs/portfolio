@@ -16,6 +16,7 @@ export const SectionAbout = styled.section`
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-content: center;
+
 `;
 
 export const DescriptionAbout = styled.div`
@@ -33,6 +34,7 @@ export const DescriptionAbout = styled.div`
   border: 3px solid rgba(95, 115, 187, 0.04);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: rgb(230, 250, 252);
 `;
 
 export const AboutImg = styled(Image)`
@@ -84,3 +86,4 @@ export const h2About = styled.h2`
   font-size: xx-large;
   color: rgb(27, 27, 27);
 `;
+

@@ -13,9 +13,10 @@ function FrontProjects({ projectName, urlDeploy, image, type, tech }) {
           <Styled.CardTextBody>{tech.toString()}</Styled.CardTextBody>
         </Styled.CardTextWrapper>
         <Styled.CardStatWrapper>
-          <Styled.StyledLink href={{ pathname: urlDeploy }}>
-            {' '}
-            Deploy{' '}
+          <Styled.StyledLink 
+          target='_blank'
+          href={{ pathname: urlDeploy }}>
+            Deploy
           </Styled.StyledLink>
         </Styled.CardStatWrapper>
       </Styled.CardWrapper>

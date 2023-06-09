@@ -96,6 +96,7 @@ export const DescriptionDiv = styled.div`
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
  background-color: rgb(230, 250, 252);
+ overflow: hidden;
 `;
 
 export const h2Description = styled.h2`
@@ -110,6 +111,8 @@ export const pDescription = styled.p`
 `;
 
 export const StyledLink = styled(Link)`
+  z-index: 1;
+  opacity: 0.6;
   font-family: var(--nunito-font), sans-serif;
   font-weight: 700;
   text-decoration: none;
@@ -131,13 +134,12 @@ export const StyledLink = styled(Link)`
   }
   &:hover {
     color: #FFFFFF;
-    opacity: 0.6;
-
+    opacity: 1;
     &::before {
       visibility: visible;
       -webkit-transform: scaleX(1);
       transform: scaleX(1);
-      z-index: 1;
+
     }
   }
 `;
