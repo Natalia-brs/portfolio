@@ -18,7 +18,7 @@ export default function Home() {
           >
             <Styled.btnCR>Download CV</Styled.btnCR>
           </a>
-          <Styled.pContact>E-mail : ntla.brs@gmail.com</Styled.pContact>
+          <Styled.pContact>E-mail: ntla.brs@gmail.com</Styled.pContact>
         </Styled.Divbtn>
       </Styled.DescriptionDiv>
     </Styled.SectionHome>
