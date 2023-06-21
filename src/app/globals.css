@@ -5,13 +5,9 @@
 }
 
 body {
-  /* overflow: hidden; */
-  background: rgb(27, 27, 28);
-  background: linear-gradient(
-    108deg,
-    rgba(27, 27, 28, 1) 29%,
-    rgba(27, 61, 92, 1) 94%
-  );
+  background-color: #1e3449;
+  background-image: linear-gradient(135deg, #1e3449 0%, #020207 100%);
+  
 }
 
 body::-webkit-scrollbar {

@@ -88,30 +88,31 @@ export const DescriptionDiv = styled.div`
   background-color: rgb(244, 243, 238);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(4.6px);
-  -webkit-backdrop-filter: blur(4.6px);
-  border: 3px solid rgba(95, 115, 187, 0.04);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
-    rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  background-color: rgb(230, 250, 252);
+  backdrop-filter: blur(15px) saturate(106%);
+  -webkit-backdrop-filter: blur(15px) saturate(106%);
+  background-color: rgba(12, 12, 15, 0.4);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
   overflow: hidden;
 `;
 
 export const h2Description = styled.h2`
   padding: 10px;
   font-size: xx-large;
-  color: rgb(27, 27, 27);
+  color: whitesmoke;
 `;
 
 export const pDescription = styled.p`
   font-family: var(--nunito-font), sans-serif;
   font-size: 1rem;
+  color: white;
 `;
 
 export const pContact = styled.p`
  font-family: var(--nunito-font), sans-serif;
   font-size: 1rem;
   font-weight: 700;
+  color: whitesmoke;
 `
 
 export const StyledLink = styled(Link)`
@@ -167,8 +168,8 @@ export const btnCR = styled.button`
   line-height: 1;
   transition: transform 200ms, background 200ms;
   background: transparent;
-  color: #000000;
-  box-shadow: 0 0 0 3px #000000 inset;
+  color: white;
+  box-shadow: 0 0 0 3px #FFFFFF inset;
   :hover {
     transform: translateY(-2px);
   }

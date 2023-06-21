@@ -15,8 +15,8 @@ export const btnProject = styled.button`
   line-height: 1;
   transition: transform 200ms, background 200ms;
   background: transparent;
-  color: #FFFFFF;
-  box-shadow: 0 0 0 3px #FFFFFF inset;
+  color: whitesmoke;
+  box-shadow: 0 0 0 3px grey inset;
   :hover {
     transform: translateY(-2px);
   }
