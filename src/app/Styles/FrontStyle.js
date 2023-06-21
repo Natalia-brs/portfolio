@@ -25,8 +25,8 @@ export const CardTextWrapper = styled.div`
 `;
 
 export const CardTextBody = styled.p`
-  color: grey;
-  font-size: 15px;
+  color: white;
+  font-size: 16px;
   font-weight: 300;
   padding: 10px;
 `;
@@ -47,22 +47,10 @@ export const CardTextName = styled.span`
   min-width: 0px;
   line-height: 1.2;
   margin: 0px;
-  background: linear-gradient(
-    45deg,
-    hsl(240deg 21% 13%) 0%,
-    hsl(226deg 24% 19%) 11%,
-    hsl(217deg 28% 25%) 22%,
-    hsl(210deg 32% 31%) 33%,
-    hsl(204deg 36% 36%) 44%,
-    hsl(200deg 39% 42%) 56%,
-    hsl(196deg 41% 47%) 67%,
-    hsl(192deg 44% 51%) 78%,
-    hsl(188deg 52% 56%) 89%,
-    hsl(183deg 60% 62%) 100%
-  );
+  background: linear-gradient(108deg, rgba(150,150,186,1) 29%, rgba(146,185,223,1) 94%);
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
+   color: transparent;
 `;
 
 export const img = styled(Image)`

@@ -7,7 +7,6 @@ function page() {
       <Styled.DivImgAbout>
         <Styled.AboutImg priority alt='Natalia-about' />
       </Styled.DivImgAbout>
-
       <Styled.DescriptionAbout>
         <Styled.h2About>Sobre mim</Styled.h2About>
         <Styled.pAbout>

@@ -1,8 +1,9 @@
 'use client';
-import React, { useState } from 'react';
+import React from 'react';
 import { usePathname } from 'next/navigation';
 import projects from '../../data/projects';
 import NotFound from '../../components/NotFound'
+import Link from 'next/link';
 
 
 const style = {
@@ -18,7 +19,7 @@ function Page() {
     if(!project) {
         return <NotFound />
     }
-     const { name, details, tech } = project
+     const { name, details, tech, github, deploy } = project
 
   return (
    <div style={style} > 
@@ -27,6 +28,8 @@ function Page() {
      <ul>
         { tech.map((item, index) => <li key={ index } > { item } </li>) }
      </ul>
+     <Link href={{ pathname: github }} > Github </Link>
+     <Link href={{ pathname: deploy }} > Deploy </Link>
    </div>
   )
 }
