@@ -1,6 +1,7 @@
 'use client';
 import styled from 'styled-components';
 
+
 export const btnProject = styled.button`
   display: inline-block;
   margin-left: 10px;

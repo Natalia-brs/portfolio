@@ -15,6 +15,7 @@ export const CardWrapper = styled.div`
   text-align: center;
   margin-left: 15px;
   margin-bottom: 15px;
+  cursor: pointer;
 `;
 
 export const CardTextWrapper = styled.div`

@@ -23,7 +23,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html className={`${philosopher.variable} ${nunito.variable}`} lang='en'>
-      <body>
+      <body suppressHydrationWarning={true}
+      >
         <Header />
         <StyledJsxRegistry>{children}</StyledJsxRegistry>
       </body>

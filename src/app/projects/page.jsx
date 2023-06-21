@@ -1,6 +1,6 @@
 'use client';
-import React, { useState } from 'react';
-import projects, { variables } from '../utils/projects';
+import React, { useState, useEffect } from 'react';
+import projects, { variables } from '../data/projects';
 import FrontProjects from '../components/FrontProjects';
 import * as Styled from '../Styles/ProjectsStyle';
 
@@ -15,6 +15,8 @@ function Page() {
     const newList = projects.filter((item) => item.type === category);
     setList(newList);
   };
+
+  
   return (
     <Styled.div>
       <Styled.BtnDiv>
@@ -26,9 +28,10 @@ function Page() {
         ))}
       </Styled.BtnDiv>
       <Styled.CardContainer>
-        {list.map((item, index) => (
+        {list.map((item) => (
           <FrontProjects
-            key={index}
+            id={ item.id }
+            key={item.id}
             projectName={item.name}
             urlDeploy={item.deploy}
             image={item.image}
@@ -37,6 +40,7 @@ function Page() {
           />
         ))}
       </Styled.CardContainer>
+
     </Styled.div>
   );
 }
