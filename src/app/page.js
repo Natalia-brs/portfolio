@@ -12,7 +12,7 @@ export default function Home() {
         <Styled.pDescription>Desenvolvedora Web FullStack </Styled.pDescription>
         <Styled.Divbtn>
           <a
-            href='https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf'
+            href='https://drive.google.com/file/d/1lMNcdvWLuT7_IvyHld4qqXDJvRotOBX0/view?usp=drive_link'
             target='_blank'
             rel='noopener noreferrer'
           >
