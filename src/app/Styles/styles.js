@@ -93,7 +93,6 @@ export const DescriptionDiv = styled.div`
   background-color: rgba(12, 12, 15, 0.4);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
-  overflow: hidden;
 `;
 
 export const h2Description = styled.h2`

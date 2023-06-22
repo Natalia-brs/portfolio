@@ -16,7 +16,7 @@ export default function Home() {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <Styled.btnCR>Download CV</Styled.btnCR>
+            <Styled.btnCR>Acessar CV</Styled.btnCR>
           </a>
           <Styled.pContact>E-mail: ntla.brs@gmail.com</Styled.pContact>
         </Styled.Divbtn>

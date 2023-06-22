@@ -43,7 +43,7 @@ const projects = [
     type: 'Frontend',
     tech: ['JavaScrip, React, Props, React Router, Tailwind'],
     details: `Utilizando o conceito de classes, projeto desenvolvido 
-    utilizando a API da Aplle music e props, onde podemos procurar o 
+    utilizando a API da Apple music e props, onde podemos procurar o 
     artista desejado e listar todos os seus albuns com suas musicas, 
     alem de adicionar as favoritas. É possivel escutar uma intro da 
     musica por um player de audio renderizado na tela.`,
