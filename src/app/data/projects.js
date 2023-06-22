@@ -27,12 +27,15 @@ const projects = [
     image: TriviaProject,
     type: 'Frontend',
     tech: ['JavaScrip, React,Redux, RTL, React Router, CSS'],
-    details: `O projeto consiste em um jogo de perguntas e respostas, 
-    onde um timer que marca o tempo que o usuario tem para responder,
-     as respostas certas são  adicionadas em um placar somando a quantidade de 
-     pontos do usuario, após o fim do jogo uma tela com o ranking 
-     com as pontuaçoes mais altas pode ser consultada. Foi utilizada 
-     uma API para realizar a requisição das perguntas, que são geradas aleatoriamente.`,
+    details: `Projeto realizado na trybe em grupo, onde pudemos trabalhar tanto nossas
+    habilidades de hard skills como de soft skills. Aqui utilizamos metodologias ageis
+    (Kanban), para nos organizar durante o desenvolvimento do projeto. O projeto
+    consiste em um jogo de perguntas e respostas, onde um timer que marca o tempo
+    que o usuario tem para responder. As respostas certas são adicionadas em um
+    placar somando a quantidade de pontos do usuario, após o fim do jogo uma tela
+    com o ranking e as pontuações mais altas pode ser consultada. Foi utilizada uma
+    API para realizar a requisição das perguntas, que são geradas aleatoriamente.
+    Projeto desenvolvido em React, Redux, React Router, RTL e CSS para estilização.`,
      github: 'https://github.com/Natalia-brs/jogoTrivia',
   },
   {
@@ -43,7 +46,7 @@ const projects = [
     type: 'Frontend',
     tech: ['JavaScrip, React, Props, React Router, Tailwind'],
     details: `Utilizando o conceito de classes, projeto desenvolvido 
-    utilizando a API da Apple music e props, onde podemos procurar o 
+    utilizando a API da Appe music e props, onde podemos procurar o 
     artista desejado e listar todos os seus albuns com suas musicas, 
     alem de adicionar as favoritas. É possivel escutar uma intro da 
     musica por um player de audio renderizado na tela.`,
@@ -82,9 +85,9 @@ const projects = [
     image: Blogs,
     type: 'Backend',
     tech: ['Docker, mySQL, NodeJS, Express, Sequelize'],
-    details: `Neste projeto desenvolvi uma API e um banco de dados para a produção 
-    de conteúdo para um blog! A aplicação roda em Node.js e express usando o banco de 
-    dados MySQL e sequelize como ORM para fazer um CRUD de posts.`,
+    details: `Desenvolvimento de uma API para a produção de contéudo para um blog
+    consistindo em um CRUD, a aplicação foi feita em node.js, express.js e sequelize
+    como ORM, utilizando MySQL como banco de dados.`,
     github: 'https://github.com/Natalia-brs/blogsSPI',
   },
   {
