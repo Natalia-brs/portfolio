@@ -9,7 +9,7 @@ export default function Home() {
 
       <Styled.DescriptionDiv>
         <Styled.h2Description>Natália Brasil</Styled.h2Description>
-        <Styled.pDescription>Desenvolvedora Web</Styled.pDescription>
+        <Styled.pDescription>Desenvolvedora Web FullStack </Styled.pDescription>
         <Styled.Divbtn>
           <a
             href='https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf'

@@ -21,8 +21,8 @@ function Page() {
       <Style.DetailsDiv>
       <Style.h1Text> { name }</Style.h1Text>
         <Style.pDetails> { details } </Style.pDetails>
-        <Style.DetailLink href={{ pathname: github }}> Repositório no Github </Style.DetailLink>
-        <Style.DetailLink href={{ pathname: deploy }}> Deploy </Style.DetailLink>
+        <Style.DetailLink  href={{ pathname: github }} target='_blank' > Repositório no Github </Style.DetailLink>
+        <Style.DetailLink href={{ pathname: deploy }}  target='_blank'> Deploy </Style.DetailLink>
       </Style.DetailsDiv>
     </Style.SectionDetails>
   );
