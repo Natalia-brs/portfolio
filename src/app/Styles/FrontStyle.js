@@ -37,7 +37,7 @@ export const CardStatWrapper = styled.div`
   align-items: center;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  background: #5930e5;
+  background: #67aaf9;
 `;
 
 export const CardTextName = styled.span`
