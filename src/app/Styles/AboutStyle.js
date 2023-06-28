@@ -16,6 +16,12 @@ export const SectionAbout = styled.section`
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-content: center;
+  @media (max-width: 775px) {
+    display: grid;
+    grid-template-columns: repeat(1, 0.5fr);
+    justify-content: center;
+    align-content: center;
+  }
 `;
 
 export const DescriptionAbout = styled.div`
@@ -31,12 +37,21 @@ export const DescriptionAbout = styled.div`
   background-color: rgba(12, 12, 15, 0.4);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
+  @media (max-width: 775px) {
+    height: 250px;
+    width: 350px;
+  }
 `;
 
 export const AboutImg = styled(Image)`
   width: 250px;
   height: 420px;
   border-radius: 40%;
+  @media (max-width: 775px) {
+    padding: 5px;
+    width: 150px;
+    height: 280px;
+  }
 `;
 
 AboutImg.defaultProps = {
@@ -49,10 +64,18 @@ export const pAbout = styled.p`
   font-size: 1rem;
   color: whitesmoke;
   font-weight: 600;
+  @media (max-width: 775px) {
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
 `;
 
 export const h2About = styled.h2`
   padding: 30px;
   font-size: xx-large;
   color: grey;
+  @media (max-width: 775px) {
+    padding: 10px;
+    font-size: 1.4rem;
+  }
 `;

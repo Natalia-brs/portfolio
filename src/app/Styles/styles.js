@@ -106,7 +106,7 @@ export const DescriptionDiv = styled.div`
 
   @media (max-width: 775px) {
     height: 260px;
-     width: 350px;
+    width: 350px;
   }
 `;
 
@@ -123,18 +123,18 @@ export const pDescription = styled.p`
 `;
 
 export const pContact = styled.p`
- font-family: var(--nunito-font), sans-serif;
+  font-family: var(--nunito-font), sans-serif;
   font-size: 1rem;
   font-weight: 700;
   color: whitesmoke;
 
   @media (max-width: 775px) {
-   padding: 10px;
-   width: 150px;
-   margin-left: 10px;
-   font-size: 11px;
+    padding: 10px;
+    width: 150px;
+    margin-left: 10px;
+    font-size: 11px;
   }
-`
+`;
 
 export const StyledLink = styled(Link)`
   z-index: 1;
@@ -177,7 +177,7 @@ export const Divbtn = styled.div`
   align-items: last baseline;
 
   @media (max-width: 775px) {
-   width: 350px;
+    width: 350px;
   }
 `;
 
@@ -194,20 +194,19 @@ export const btnCR = styled.button`
   transition: transform 200ms, background 200ms;
   background: transparent;
   color: white;
-  box-shadow: 0 0 0 3px #FFFFFF inset;
+  box-shadow: 0 0 0 3px #ffffff inset;
   :hover {
     transform: translateY(-2px);
   }
   @media (max-width: 775px) {
-   padding: 10px;
-   width: 90px;
-   margin-left: 10px;
-   font-size: 11px;
-   border-radius: 5px;
-   line-height: 1.5;
-   box-shadow: 0 0 0 1px #FFFFFF inset;
+    padding: 10px;
+    width: 90px;
+    margin-left: 10px;
+    font-size: 11px;
+    border-radius: 5px;
+    line-height: 1.5;
+    box-shadow: 0 0 0 1px #ffffff inset;
   }
-  
 `;
 
 export const iconsDiv = styled.div`
@@ -217,5 +216,3 @@ export const iconsDiv = styled.div`
   align-items: center;
   text-decoration: none;
 `;
-
-
