@@ -11,7 +11,7 @@ export const DivImgAbout = styled.div`
 `;
 
 export const SectionAbout = styled.section`
-  height: calc(100vh - 100px);
+  height: calc(100vh - 200px);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;

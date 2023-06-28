@@ -1,4 +1,4 @@
-import * as Styled from '../Styles/styles';
+import * as Styled from '../Styles/Styles';
 import React from 'react';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 

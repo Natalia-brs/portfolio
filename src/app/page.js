@@ -1,4 +1,4 @@
-import * as Styled from './Styles/styles';
+import * as Styled from './Styles/Styles';
 
 export default function Home() {
   return (

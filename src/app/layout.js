@@ -1,6 +1,7 @@
 import './globals.css';
 import StyledJsxRegistry from './registry';
 import Header from '../app/components/Header';
+import Footer from './components/Footer';
 import { Philosopher, Nunito } from 'next/font/google';
 
 const philosopher = Philosopher({
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <StyledJsxRegistry>{children}</StyledJsxRegistry>
+        <Footer />
       </body>
     </html>
   );

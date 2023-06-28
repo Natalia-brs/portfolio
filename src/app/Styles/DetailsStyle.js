@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styled from 'styled-components';
 
 export const SectionDetails = styled.section`
-  height: calc(100vh - 100px);
+  height: calc(100vh - 200px);
   display: grid;
   justify-content: center;
   align-content: center;
