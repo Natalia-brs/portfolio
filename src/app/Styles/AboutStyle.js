@@ -38,7 +38,8 @@ export const DescriptionAbout = styled.div`
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
   @media (max-width: 775px) {
-    height: 250px;
+    padding: 15px;
+    height: 210px;
     width: 350px;
   }
 `;
@@ -80,4 +81,4 @@ export const h2About = styled.h2`
   }
 `;
 
-//coment
+

@@ -132,7 +132,7 @@ export const pContact = styled.p`
 
   @media (max-width: 775px) {
     padding: 10px;
-    width: 150px;
+    width: 180px;
     margin-left: 10px;
     font-size: 11px;
   }
