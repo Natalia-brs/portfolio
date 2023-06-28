@@ -59,6 +59,10 @@ export const NextImage = styled(Image)`
       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
   }
+
+  @media (max-width: 775px) {
+    display: none;
+  }
 `;
 NextImage.defaultProps = {
   src: HomePort,
@@ -76,6 +80,12 @@ export const SectionHome = styled.section`
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-content: center;
+  @media (max-width: 775px) {
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const DescriptionDiv = styled.div`
@@ -93,6 +103,11 @@ export const DescriptionDiv = styled.div`
   background-color: rgba(12, 12, 15, 0.4);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
+
+  @media (max-width: 775px) {
+    height: 260px;
+     width: 350px;
+  }
 `;
 
 export const h2Description = styled.h2`
@@ -112,6 +127,13 @@ export const pContact = styled.p`
   font-size: 1rem;
   font-weight: 700;
   color: whitesmoke;
+
+  @media (max-width: 775px) {
+   padding: 10px;
+   width: 150px;
+   margin-left: 10px;
+   font-size: 11px;
+  }
 `
 
 export const StyledLink = styled(Link)`
@@ -153,6 +175,10 @@ export const Divbtn = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: last baseline;
+
+  @media (max-width: 775px) {
+   width: 350px;
+  }
 `;
 
 export const btnCR = styled.button`
@@ -172,6 +198,16 @@ export const btnCR = styled.button`
   :hover {
     transform: translateY(-2px);
   }
+  @media (max-width: 775px) {
+   padding: 10px;
+   width: 90px;
+   margin-left: 10px;
+   font-size: 11px;
+   border-radius: 5px;
+   line-height: 1.5;
+   box-shadow: 0 0 0 1px #FFFFFF inset;
+  }
+  
 `;
 
 export const iconsDiv = styled.div`

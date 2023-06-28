@@ -11,7 +11,7 @@ export const SectionDetails = styled.section`
 `;
 
 export const DetailsDiv = styled.div`
-  height: 380px;
+  height: 450px;
   width: 650px;
   display: flex;
   flex-direction: column;
@@ -40,6 +40,7 @@ export const h1Text = styled.h2`
 `;
 
 export const pDetails = styled.p`
+  padding: 5px;
   font-family: var(--nunito-font), sans-serif;
   font-size: 1.1rem;
   color: white;
