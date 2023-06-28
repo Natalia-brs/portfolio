@@ -10,4 +10,4 @@ Projeto onde desenvolvi meu portfólio para a exibição dos meus projetos.
 - Context API
 
 # Deploy:
-https://portfolio-rnfbhcr0d-natalia-brs.vercel.app
+https://portfolio-dk3og418a-natalia-brs.vercel.app/
