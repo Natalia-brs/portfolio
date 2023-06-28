@@ -8,6 +8,11 @@ export const SectionDetails = styled.section`
   justify-content: center;
   align-content: center;
   background: black;
+  @media (max-width: 775px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const DetailsDiv = styled.div`
@@ -19,14 +24,17 @@ export const DetailsDiv = styled.div`
   padding: 16px;
   align-items: center;
   border-radius: 16px;
-  
+
   backdrop-filter: blur(4px) saturate(180%);
   -webkit-backdrop-filter: blur(4px) saturate(180%);
   background-color: rgba(17, 25, 40, 0.32);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
+  @media (max-width: 775px) {
+    height: 360px;
+    width: 350px;
+  }
 `;
 
 export const h1Text = styled.h2`
@@ -37,6 +45,11 @@ export const h1Text = styled.h2`
   background: linear-gradient(to right, #89a7cf 0%, #1b33cf 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  @media (max-width: 775px) {
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
 `;
 
 export const pDetails = styled.p`
@@ -44,6 +57,11 @@ export const pDetails = styled.p`
   font-family: var(--nunito-font), sans-serif;
   font-size: 1.1rem;
   color: white;
+
+  @media (max-width: 775px) {
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
 `;
 
 export const DetailLink = styled(Link)`
@@ -76,5 +94,9 @@ export const DetailLink = styled(Link)`
       -webkit-transform: scaleX(1);
       transform: scaleX(1);
     }
+  }
+  @media (max-width: 775px) {
+    font-size: 0.8rem;
+    font-weight: 700;
   }
 `;

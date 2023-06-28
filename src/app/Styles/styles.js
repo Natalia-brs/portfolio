@@ -81,7 +81,6 @@ export const SectionHome = styled.section`
   justify-content: center;
   align-content: center;
   @media (max-width: 775px) {
-    height: calc(100vh - 100px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,6 +113,9 @@ export const h2Description = styled.h2`
   padding: 10px;
   font-size: xx-large;
   color: whitesmoke;
+  @media (max-width: 775px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const pDescription = styled.p`
@@ -167,6 +169,9 @@ export const StyledLink = styled(Link)`
       transform: scaleX(1);
     }
   }
+  @media (max-width: 775px) {
+    font-size: 0.9rem;
+  }
 `;
 
 export const Divbtn = styled.div`
@@ -215,4 +220,7 @@ export const iconsDiv = styled.div`
   justify-content: space-evenly;
   align-items: center;
   text-decoration: none;
+  @media (max-width: 775px) {
+    width: 350px;
+  }
 `;

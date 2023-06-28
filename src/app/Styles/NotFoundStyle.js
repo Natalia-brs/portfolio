@@ -64,4 +64,4 @@ export const NotFoundLink = styled(Link)`
       transform: scaleX(1);
     }
   }
-`
+`;

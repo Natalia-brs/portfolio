@@ -1,7 +1,6 @@
 'use client';
 import styled from 'styled-components';
 
-
 export const btnProject = styled.button`
   display: inline-block;
   margin-left: 10px;
@@ -19,6 +18,12 @@ export const btnProject = styled.button`
   box-shadow: 0 0 0 3px grey inset;
   :hover {
     transform: translateY(-2px);
+  }
+  @media (max-width: 775px) {
+    font-size: 12px;
+    box-shadow: 0 0 0 2px grey inset;
+    margin-left: 5px;
+    padding: 15px;
   }
 `;
 
@@ -41,8 +46,11 @@ export const BtnDiv = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: 775px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
-export const div = styled.div`
-
-`
+export const div = styled.div``;

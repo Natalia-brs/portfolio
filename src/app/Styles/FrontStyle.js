@@ -47,10 +47,14 @@ export const CardTextName = styled.span`
   min-width: 0px;
   line-height: 1.2;
   margin: 0px;
-  background: linear-gradient(108deg, rgba(150,150,186,1) 29%, rgba(146,185,223,1) 94%);
+  background: linear-gradient(
+    108deg,
+    rgba(150, 150, 186, 1) 29%,
+    rgba(146, 185, 223, 1) 94%
+  );
   background-clip: text;
   -webkit-background-clip: text;
-   color: transparent;
+  color: transparent;
 `;
 
 export const img = styled(Image)`
